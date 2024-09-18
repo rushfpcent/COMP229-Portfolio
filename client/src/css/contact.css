@@ -1,0 +1,43 @@
+.contact-form {
+    width: 50%; /* Make the form take up 75% of the page width */
+    margin: 0 auto; /* Center the form horizontally */
+    padding: 20px; /* Add some padding inside the form */
+    border: 1px solid #ccc; /* Add a border around the form */
+    border-radius: 8px; /* Optional: Add rounded corners to the border */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for better visibility */
+}
+
+.contact-info {
+    margin-bottom: 20px;
+}
+
+.contact-form div {
+    margin-bottom: 15px; /* Increased margin for better spacing */
+}
+
+.contact-form label {
+    display: block;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 75%; /* Make the input fields and textarea 75% of the form width */
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: black; /* Change button text color to black */
+    border: none;
+    cursor: pointer;
+    border-radius: 4px; /* Optional: Add rounded corners to the button */
+}
+
+button:hover {
+    background-color: #0056b3;
+}
