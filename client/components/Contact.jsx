@@ -33,12 +33,15 @@ export default function Contact() {
     //Standard HTML form
     return (
         <>
+            <div className="contact-me">
             <h2>Contact Me</h2>
+            </div>
             <div className="contact-info">
                 <h3>My Contact Information</h3>
                 <p>Email: soroush@fakemail.com</p>
                 <p>Phone: 123-456-7890</p>
-                <p>Address: 1 Bloor Ave, Toronto, ON, Can</p>
+                <p>Address: 1 Bloor Ave, Toronto, Ontario</p>
+                <p>Canada, M4Y 2Z1</p>
             </div>
 
             <form className="contact-form" onSubmit={handleSubmit}>

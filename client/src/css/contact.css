@@ -8,7 +8,18 @@
 }
 
 .contact-info {
-    margin-bottom: 20px;
+    width: 50%; /* Set the width to match the form */
+    margin: 20px auto; /* Center the section and add some margin at the top and bottom */
+    padding: 20px; /* Add padding inside the border */
+    border: 1px solid #ccc; /* Add a border */
+    border-radius: 8px; /* Optional: Add rounded corners to the border */
+    background-color: #555; /* Optional: Dark background to match your site */
+    color: white; /* Change text color to white for better visibility */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for better visibility */
+}
+
+.contact-me {
+    padding-left: 300px;
 }
 
 .contact-form div {
