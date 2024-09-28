@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import '../src/css/contact.css';
+import '../css/contact.css';
+
 // https://github.com/ksentak/react-contact-form/blob/main/src/ContactForm.jsx
 // Used as reference (in addition to some websites covering React forms)
 

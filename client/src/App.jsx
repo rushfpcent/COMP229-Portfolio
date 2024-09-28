@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router } from "react-router-dom";
 import MainRouter from "../MainRouter";
-import Contact from "../components/Contact";
+import Contact from "../src/components/Contact";
 
 const App = () => {
   return (

@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "../src/css/styles.css";
+import "../css/styles.css";
 
  function Layout() {
     return (
