@@ -14,7 +14,7 @@ export default function About() {
         <>
             <p>About Me</p>
             <div className="pdf">
-            <PdfViewer pdfUrl="..\public\document.pdf" />
+            <PdfViewer pdfUrl="https://client--soroush-fazelpour.netlify.app/document.pdf" />
             </div>
         </>
         
