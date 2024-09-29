@@ -1,0 +1,32 @@
+/*
+File Name: services.css
+Student Name: Soroush Fazel-Pour
+Student ID: 301368534
+Date: September 29, 2024
+*/
+
+.services-container {
+    padding: 20px;
+    padding-top: 8px;
+    border: 2px solid white; /* Optional border */
+    border-radius: 15px;    /* Rounded corners */
+    max-width: 800px;       /* Maximum width for the container */
+    margin: 20px auto;      /* Center the container */
+    background-color: rgba(0, 0, 0, 0.7); /* Background color */
+    color: white;           /* Text color */
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.3); /* Glow effect */
+}
+
+.services-list {
+    list-style-type: none;  /* Remove default list styling for top-level items */
+    padding-left: 30px;        /* Remove padding */
+}
+
+.services-list ul {
+    list-style-type: disc;  /* Use bullet points for sub-lists */
+    padding-left: 45px;     /* Indent sub-lists */
+}
+
+.services-list li {
+    margin: 10px 0;         /* Space between list items */
+}

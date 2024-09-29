@@ -5,10 +5,48 @@ Student ID: 301368534
 Date: September 29, 2024
 */
 
+.about-container {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    padding: 20px;
+    padding-top: 5px;
+    border: 2px solid white;
+    border-radius: 15px;
+    color: white;
+    max-width: 900px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.3);
+}
+
+.about-text {
+    flex: 1; 
+    text-align: left; 
+    padding: 10px; 
+}
+
+.imgMe {
+    flex: 1; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.imgMe img {
+    width: 300px; 
+    height: 300px;
+    border-radius: 50%; 
+    border: 2px solid white;
+}
+
 .pdf {
-    width: 40%;          /* Set the width to 75% of its container */
-    /*height: 60vh;       /* Set the height to 75% of the viewport height */
-    margin: 0 auto;     /* Center the viewer horizontally */
-    border: 1px solid #ccc; /* Optional: Add a light border around the viewer */
-    overflow: auto;      /* Allow scrolling if the content overflows */
+    width: 100%;
+    max-width: 40%;        
+    min-width: 300px;
+    margin: 0 auto;   
+    border: 1px solid #ccc; 
+    overflow: auto;   
+    margin-bottom: 30px;
 }

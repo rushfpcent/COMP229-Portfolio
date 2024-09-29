@@ -6,23 +6,22 @@ Date: September 29, 2024
 */
 
 .contact-form {
-    width: 50%; /* Make the form take up 75% of the page width */
-    margin: 0 auto; /* Center the form horizontally */
-    padding: 20px; /* Add some padding inside the form */
-    border: 1px solid #ccc; /* Add a border around the form */
-    border-radius: 8px; /* Optional: Add rounded corners to the border */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for better visibility */
+    width: 50%; 
+    margin: 0 auto; 
+    padding: 20px; 
+    border: 1px solid #ccc; 
+    border-radius: 8px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
 }
 
 .contact-info {
-    width: 50%; /* Set the width to match the form */
-    margin: 20px auto; /* Center the section and add some margin at the top and bottom */
-    padding: 20px; /* Add padding inside the border */
-    border: 1px solid #ccc; /* Add a border */
-    border-radius: 8px; /* Optional: Add rounded corners to the border */
-    background-color: #555; /* Optional: Dark background to match your site */
-    color: white; /* Change text color to white for better visibility */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for better visibility */
+    margin: 20px auto; 
+    padding: 20px;
+    border: 1px solid #ccc; 
+    border-radius: 8px; 
+    background-color: #555; 
+    color: white; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
 }
 
 .contact-me {
@@ -32,7 +31,7 @@ Date: September 29, 2024
 }
 
 .contact-form div {
-    margin-bottom: 15px; /* Increased margin for better spacing */
+    margin-bottom: 15px; 
 }
 
 .contact-form label {
@@ -42,7 +41,7 @@ Date: September 29, 2024
 
 .contact-form input,
 .contact-form textarea {
-    width: 75%; /* Make the input fields and textarea 75% of the form width */
+    width: 75%; 
     padding: 8px;
     margin-top: 5px;
     border: 1px solid #ccc;
@@ -52,10 +51,10 @@ Date: September 29, 2024
 button {
     padding: 10px 15px;
     background-color: #007bff;
-    color: black; /* Change button text color to black */
+    color: black; 
     border: none;
     cursor: pointer;
-    border-radius: 4px; /* Optional: Add rounded corners to the button */
+    border-radius: 4px; 
 }
 
 button:hover {

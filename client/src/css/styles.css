@@ -48,8 +48,8 @@ body {
   }
   
   .logo {
-    width: 50px; /* Adjust the size as needed */
-    height: auto; /* Maintain aspect ratio */
-    vertical-align: middle; /* Aligns logo with text */
-    margin-right: 10px; /* Space between logo and text */
+    width: 50px; 
+    height: auto; 
+    vertical-align: middle; 
+    margin-right: 10px; 
 }

@@ -9,7 +9,7 @@ export default function Project() {
     return(
         <>
         
-            <p>My Projects</p>
+            <h2>My Projects</h2>
         
         </>
     );
