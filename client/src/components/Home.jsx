@@ -5,6 +5,8 @@ Student ID: 301368534
 Date: September 29, 2024
 */
 
+//#Mission Statement
+
 export default function Home() {
     return (
         <div>
