@@ -14,6 +14,7 @@ import { Worker, Viewer } from '@react-pdf-viewer/core';
 import { defaultLayoutPlugin } from '@react-pdf-viewer/default-layout';
 
 const PdfViewer = ({ pdfUrl }) => {
+    console.log('PDF URL: ', pdfUrl)
     // Create an instance of the default layout plugin
     const defaultLayoutPluginInstance = defaultLayoutPlugin();
 
