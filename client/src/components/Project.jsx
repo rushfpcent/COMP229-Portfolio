@@ -10,7 +10,7 @@ export default function Project() {
         <>
         
             <h2>My Projects</h2>
-        
+            
         </>
     );
 }
