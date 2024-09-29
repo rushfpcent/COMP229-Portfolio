@@ -4,6 +4,7 @@ Student Name: Soroush Fazel-Pour
 Student ID: 301368534
 Date: September 29, 2024
 */
+// "/document.pdf"
 
 import React from "react";
 import PdfViewer from "./PdfViewer";
@@ -14,7 +15,7 @@ export default function About() {
         <>
             <p>About Me</p>
             <div className="pdf">
-            <PdfViewer pdfUrl="/document.pdf" />
+            <PdfViewer pdfUrl="https://client--soroush-fazelpour.netlify.app/document.pdf" />
             </div>
         </>
         
