@@ -6,7 +6,7 @@ Date: September 29, 2024
 */
 
 export default function Services() {
-return (
+    return (
         <>
             <p>Services</p>
         </>

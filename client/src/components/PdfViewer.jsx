@@ -5,6 +5,8 @@ Student ID: 301368534
 Date: September 29, 2024
 */
 
+//Knowledge for this obtained from react-pdf website
+
 import React, { useState } from 'react';
 import '@react-pdf-viewer/core/lib/styles/index.css';
 import '@react-pdf-viewer/default-layout/lib/styles/index.css';
@@ -22,6 +24,7 @@ const PdfViewer = ({ pdfUrl }) => {
                 <Viewer
                     fileUrl={pdfUrl}
                     plugins={[defaultLayoutPluginInstance]}
+                    defaultScale={1.2}
                 />
             </Worker>
         </div>
