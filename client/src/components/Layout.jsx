@@ -13,7 +13,7 @@ import "../css/styles.css";
     return (
         <>
             <h1>
-            <img src="..\src\assets\icons\logo1.png" alt="Logo" className="logo" />   My Portfolio
+            <img src="/logo1.png" alt="Logo" className="logo" />   My Portfolio
             </h1>
             <nav>
                 <Link to="/">Home</Link> | <Link to="/about">About</Link> | <Link to="/services">Services </Link>| <Link to="/project">Projects </Link>| <Link to="/contact">Contact</Link>
