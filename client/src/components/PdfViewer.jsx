@@ -1,3 +1,10 @@
+/*
+File Name: PdfViewer.jsx
+Student Name: Soroush Fazel-Pour
+Student ID: 301368534
+Date: September 29, 2024
+*/
+
 import React, { useState } from 'react';
 import '@react-pdf-viewer/core/lib/styles/index.css';
 import '@react-pdf-viewer/default-layout/lib/styles/index.css';
@@ -9,7 +16,7 @@ const PdfViewer = ({ pdfUrl }) => {
     const defaultLayoutPluginInstance = defaultLayoutPlugin();
 
     return (
-        <div style={{ height: '750px' }}>
+        <div>
             {/* PDF Viewer */}
             <Worker workerUrl={`https://unpkg.com/pdfjs-dist@3.11.174/build/pdf.worker.min.js`}>
                 <Viewer

@@ -1,3 +1,10 @@
+/*
+File Name: Contact.jsx
+Student Name: Soroush Fazel-Pour
+Student ID: 301368534
+Date: September 29, 2024
+*/
+
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import '../css/contact.css';

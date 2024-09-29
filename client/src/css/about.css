@@ -1,0 +1,14 @@
+/*
+File Name: about.css
+Student Name: Soroush Fazel-Pour
+Student ID: 301368534
+Date: September 29, 2024
+*/
+
+.pdf {
+    width: 75%;          /* Set the width to 75% of its container */
+    /*height: 75vh;       /* Set the height to 75% of the viewport height */
+    margin: 0 auto;     /* Center the viewer horizontally */
+    border: 1px solid #ccc; /* Optional: Add a light border around the viewer */
+    overflow: auto;      /* Allow scrolling if the content overflows */
+}

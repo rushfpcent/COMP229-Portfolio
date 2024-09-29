@@ -1,3 +1,10 @@
+/*
+File Name: eslint.config.js
+Student Name: Soroush Fazel-Pour
+Student ID: 301368534
+Date: September 29, 2024
+*/
+
 import js from '@eslint/js'
 import globals from 'globals'
 import react from 'eslint-plugin-react'
