@@ -34,25 +34,31 @@ const services = [
 
 export default function Services() {
     return (
-        <>
-            <div className="services-container">
-            <h2>Services</h2>
-            <ul className="services-list">
-                {services.map((service, index) => (
-                    <li key={index}>
-                        {Array.isArray(service) ? (
-                            <ul>
-                                {service.map((subService, subIndex) => (
-                                    <li key={subIndex}>{subService}</li>
-                                ))}
-                            </ul>
-                        ) : (
-                            service
-                        )}
-                    </li>
-                ))}
-            </ul>
+        <div className="services-container">
+            <h2 className="services-heading">Services</h2>
+            <div className="content"> {/* New content wrapper */}
+                <ul className="services-list">
+                    {services.map((service, index) => (
+                        <li key={index}>
+                            {Array.isArray(service) ? (
+                                <ul>
+                                    {service.map((subService, subIndex) => (
+                                        <li key={subIndex}>{subService}</li>
+                                    ))}
+                                </ul>
+                            ) : (
+                                service
+                            )}
+                        </li>
+                    ))}
+                </ul>
+                <div className="imgServices">
+                    <img src="/csharp.png" alt="C#" />
+                    <img src="/java.png" alt="Java" />
+                    <img src="/python.png" alt="Python" />
+                    <img src="/javascript.png" alt="JavaScript" />
+                </div>
+            </div>
         </div>
-        </>
     );
 }
