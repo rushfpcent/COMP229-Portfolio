@@ -7,10 +7,9 @@ Date: September 29, 2024
 
 export default function Project() {
     return(
-        <>
-        
-            <h2>My Projects</h2>
-            
-        </>
+        <div className="project-container">
+            <h2 className="project-header">My Projects</h2>
+
+        </div>
     );
 }
