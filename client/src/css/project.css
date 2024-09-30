@@ -4,3 +4,40 @@ Student Name: Soroush Fazel-Pour
 Student ID: 301368534
 Date: September 29, 2024
 */
+
+.project-container {
+    margin: 20px;
+    text-align: center; /* Center aligns the header */
+}
+
+.project-header {
+    font-size: 24px; /* Adjust size as needed */
+    margin-bottom: 20px;
+}
+
+.projects-columns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-column {
+    border: 2px solid #ccc; /* Change border color as needed */
+    border-radius: 10px; /* Optional: adds rounded corners */
+    padding: 20px;
+    width: 30%; /* Adjust width as needed */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: adds shadow for depth */
+}
+
+.imgProject {
+    width: 80%; /* Makes image responsive */
+    height: 500px; /* Maintains aspect ratio */
+    border-radius: 5px; /* Optional: adds rounded corners to the image */
+}
+
+h3 {
+    margin: 10px 0; /* Adds spacing above and below project titles */
+}
+
+p {
+    margin: 10px 0; /* Adds spacing above and below descriptions */
+}
