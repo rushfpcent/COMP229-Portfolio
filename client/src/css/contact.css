@@ -5,17 +5,14 @@ Student ID: 301368534
 Date: September 29, 2024
 */
 
-.contact-form {
-    width: 50%; 
-    margin: 0 auto; 
-    padding: 20px; 
-    border: 1px solid #ccc; 
-    border-radius: 8px; 
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+.contact-me {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .contact-info {
-    width: 50%;
+    width: 300px;
     margin: 20px auto; 
     padding: 20px;
     border: 1px solid #ccc; 
@@ -25,10 +22,13 @@ Date: September 29, 2024
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
 }
 
-.contact-me {
-    width: 50%;
-    margin: 0 auto;
-    text-align: left;
+.contact-form {
+    width: 800px; 
+    margin: 0 auto; 
+    padding: 20px; 
+    border: 1px solid #ccc; 
+    border-radius: 8px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
 }
 
 .contact-form div {
@@ -42,7 +42,7 @@ Date: September 29, 2024
 
 .contact-form input,
 .contact-form textarea {
-    width: 75%; 
+    width: 90%; 
     padding: 8px;
     margin-top: 5px;
     border: 1px solid #ccc;
